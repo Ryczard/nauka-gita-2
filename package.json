@@ -1,0 +1,26 @@
+{
+  "name": "nauka-gita-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryczard/nauka-gita-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryczard/nauka-gita-2/issues"
+  },
+  "homepage": "https://github.com/Ryczard/nauka-gita-2#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.24.4",
+    "nu-html-checker": "^0.1.0"
+  }
+}
